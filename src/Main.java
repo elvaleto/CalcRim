@@ -40,9 +40,7 @@ public class Main {
                 System.out.println(rom1);
             } else if (flag1 || flag2) {
                 System.out.println("неправильная комбинация");
-            } else if (flag3 || flag4) {
-                System.out.println("неправильная комбинация");
-            } else if (flag3 && flag4) {
+             } else if (flag3 && flag4) {
                 int num1 = Integer.parseInt(arr[0]);
                 int num2 = Integer.parseInt(arr[2]);
                 int arr2 = Calc.raschet(num1, znak, num2);
